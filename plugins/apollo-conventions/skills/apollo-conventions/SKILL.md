@@ -55,6 +55,29 @@ Say what a thing does and stop. No superlatives, no "cutting edge", no
 "revolutionary", no filler adjectives. Prefer a concrete number or behavior over
 an adjective. Short sentences beat long ones.
 
+## READMEs
+
+Every `README.md` is an Open Knowledge Format concept document: YAML
+frontmatter, then the body. Required keys are `type`, `title`, `description`,
+`resource`, `generated` and `status`.
+
+```yaml
+---
+type: Project
+title: Apollo Audit
+description: Confronts a health facility document corpus to a certification referential and reports the gaps.
+resource: https://github.com/apollovisionlabs/apollo-audit
+status: draft
+generated:
+  by: human:remydeme
+  at: 2026-08-31T09:00:00Z
+---
+```
+
+Add `verified` only once a person has read the file. Type values, actor
+syntax, trust tiers and the reserved `index.md` and `log.md` files are in
+[readme-okf.md](readme-okf.md).
+
 ## Commits
 
 Conventional Commits. Lowercase type, colon, then an imperative subject with no
@@ -87,5 +110,7 @@ Stop and fix if you catch yourself typing any of these:
 - A commit subject that ends with a period or describes what you did rather than
   what the change does.
 - Marketing adjectives in a README.
+- A README with no frontmatter, or one carrying a `verified` entry for a human
+  who never read it.
 - A French sentence in a code comment, or an English-only page added without its
   French counterpart.

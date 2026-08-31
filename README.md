@@ -1,3 +1,15 @@
+---
+type: Plugin
+title: Apollo Vision Labs marketplace
+description: Public Claude Code plugin marketplace holding the Apollo Vision Labs writing and naming conventions.
+resource: https://github.com/apollovisionlabs/apollovisionlabs-marketplace
+status: stable
+tags: [claude-code, plugins, conventions]
+generated:
+  by: human:remydeme
+  at: 2026-08-31T09:00:00Z
+---
+
 # Apollo Vision Labs marketplace
 
 Public [Claude Code](https://code.claude.com) plugins maintained by
@@ -14,7 +26,7 @@ Public [Claude Code](https://code.claude.com) plugins maintained by
 
 | Plugin | Skills | What it does |
 |---|---|---|
-| `apollo-conventions` | `apollo-conventions` | Writing style, dash policy, language policy, commit and branch conventions, resource naming. |
+| `apollo-conventions` | `apollo-conventions` | Writing style, dash policy, language policy, README format, commit and branch conventions, resource naming. |
 
 ## Contributing
 
