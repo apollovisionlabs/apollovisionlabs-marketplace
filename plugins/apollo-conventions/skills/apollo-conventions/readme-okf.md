@@ -51,6 +51,9 @@ OKF does not register type values centrally. Ours:
 | `Library` | A package consumed by other code. |
 | `Plugin` | A Claude Code plugin or marketplace. |
 | `Reference` | Documentation with no deployable artifact. |
+| `Design Spec` | A validated design, one per feature. |
+| `Implementation Plan` | A task by task plan derived from a design spec. |
+| `Brainstorm` | Direction notes: options examined, decision taken, and why. |
 
 Add a value rather than stretching an existing one, and record it here.
 
@@ -92,6 +95,17 @@ Everything else is free.
 
 The body still follows the house rules: no em dashes, no en dashes, no
 marketing adjectives, English.
+
+## Documentation bundles
+
+A documentation directory is an OKF bundle: every non reserved `.md` in it
+carries frontmatter with a `type`, and the directory root carries an
+`index.md`. This applies to `docs/` and `brainstorming/` in a project
+repository.
+
+A plan derived from a design spec records that link in `sources`, with a bundle
+relative `resource`. That is what makes the chain from decision to code
+followable later.
 
 ## Reserved filenames
 
