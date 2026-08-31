@@ -15,7 +15,8 @@ organization: https://github.com/apollovisionlabs
 These apply to every Apollo repository, not just this one.
 
 - **Language**: code, comments, commit messages, documentation and agent files
-  in English. Product and website copy in French and English, kept in sync.
+  in English, design specs, implementation plans and brainstorming notes
+  included. Product and website copy in French and English, kept in sync.
 - **No em dashes or en dashes in prose.** Use a comma, a colon, or two
   sentences. Infrastructure resource names use hyphens only.
 - **READMEs**: every `README.md` is an Open Knowledge Format concept document,

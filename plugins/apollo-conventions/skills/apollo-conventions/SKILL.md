@@ -47,6 +47,8 @@ quotation marks or a code block.
 ## Language
 
 - Code, comments, commit messages, documentation and agent files: English.
+  Documentation includes design specs, implementation plans and brainstorming
+  notes. A document discussed in another language is still written in English.
 - Product and website copy: French and English, kept in sync.
 
 ## Tone
@@ -112,5 +114,5 @@ Stop and fix if you catch yourself typing any of these:
 - Marketing adjectives in a README.
 - A README with no frontmatter, or one carrying a `verified` entry for a human
   who never read it.
-- A French sentence in a code comment, or an English-only page added without its
-  French counterpart.
+- A French sentence in a code comment, a spec or a plan, or an English-only page
+  added without its French counterpart.
