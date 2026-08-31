@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "apollo-conventions",
+  "displayName": "Apollo Conventions",
+  "version": "0.1.0",
+  "description": "Writing, naming and commit conventions used across Apollo Vision Labs repositories",
+  "author": {
+    "name": "Apollo Vision Labs",
+    "url": "https://github.com/apollovisionlabs"
+  },
+  "homepage": "https://github.com/apollovisionlabs/apollovisionlabs-marketplace",
+  "repository": "https://github.com/apollovisionlabs/apollovisionlabs-marketplace",
+  "license": "MIT",
+  "keywords": ["conventions", "style", "commits", "naming"]
+}
