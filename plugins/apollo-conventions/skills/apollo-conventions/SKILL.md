@@ -1,6 +1,6 @@
 ---
 name: apollo-conventions
-description: Use when writing or editing any prose, documentation, README, commit message, branch name, website copy, or resource name in an Apollo Vision Labs repository, and when reviewing text someone else wrote for those repositories.
+description: Use when writing or editing any prose, documentation, README, commit message, branch name, git worktree, website copy, or resource name in an Apollo Vision Labs repository, and when reviewing text someone else wrote for those repositories.
 ---
 
 # Apollo Conventions
@@ -97,6 +97,22 @@ Types in use: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
 Branches: `feat/<topic>`, `fix/<topic>`, `docs/<topic>`, kebab-case topic,
 merged into `main`.
 
+## Worktrees
+
+One task, one branch, one worktree. Remove the worktree as soon as its branch
+is merged into `main` or pushed:
+
+```bash
+git worktree remove <path>
+git worktree prune
+```
+
+Never use `rm -rf` or `--force` for this. `git worktree remove` refuses when the
+worktree holds uncommitted changes: commit and push them, or discard them on
+purpose, then remove it. Leftover worktrees pile up fast, each one a full
+checkout with its dependencies, and it becomes hard to tell finished work from
+work that was never pushed.
+
 ## Naming
 
 - Files and directories: kebab-case.
@@ -116,3 +132,4 @@ Stop and fix if you catch yourself typing any of these:
   who never read it.
 - A French sentence in a code comment, a spec or a plan, or an English-only page
   added without its French counterpart.
+- A task finished, its branch merged or pushed, and its worktree still on disk.

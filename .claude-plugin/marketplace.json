@@ -16,14 +16,14 @@
       "displayName": "Apollo Conventions",
       "source": "./plugins/apollo-conventions",
       "description": "Writing, naming, README format and commit conventions used across Apollo Vision Labs repositories",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Apollo Vision Labs",
         "url": "https://github.com/apollovisionlabs"
       },
       "repository": "https://github.com/apollovisionlabs/apollovisionlabs-marketplace",
       "license": "MIT",
-      "keywords": ["conventions", "style", "commits", "naming", "readme", "okf"],
+      "keywords": ["conventions", "style", "commits", "naming", "readme", "okf", "worktrees"],
       "category": "productivity"
     }
   ]
