@@ -24,6 +24,8 @@ These apply to every Apollo repository, not just this one.
   `resource`, `generated`, `status`.
 - **Commits**: Conventional Commits, imperative subject, no trailing period.
   Branches `feat/<topic>`, `fix/<topic>`, `docs/<topic>`, merged into `main`.
+- **Worktrees**: remove a task's worktree with `git worktree remove` as soon as
+  its branch is merged or pushed. Never `rm -rf` or `--force`.
 - **Tone**: say what a thing does. No marketing adjectives.
 
 The `apollo-conventions` skill in this repository is the enforceable version of
